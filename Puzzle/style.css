@@ -1,0 +1,158 @@
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    text-decoration: underline;
+    color: #70BEC2;
+}
+
+h1:hover {
+    transform: scale(2) rotate(2deg);
+}
+
+.toolbox {
+    text-align: left;
+}
+
+.game {
+    text-align: center;
+}
+
+.picture {
+    text-align: right;
+}
+
+#winning {
+  text-align: center;
+  border-radius: 6px;
+  display: block;
+  background: lightcoral;
+  color: black;
+  padding: 5px 10px;
+  margin: 27px auto;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.card {
+  float: left; 
+  display: inline-block;
+  margin: 5px;
+  padding: 20px 40px 40px;
+  width: 350px;
+  text-align: center;
+  background: lightgrey;
+  border-bottom: 4px solid black;
+  border-radius: 6px;
+  color: black;
+}
+
+article {
+      /*display: flex;*/
+      max-width: 1500px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+.score {
+  margin-left: 20px;
+  margin-top: 27px;
+  padding: 2px 40px 10px;
+  width: 250px;
+  text-align: center;
+  background: antiquewhite;
+  border-bottom: 4px solid black;
+  border-radius: 6px;
+  color: black;
+  text-align: left;
+}
+
+#ttime {
+  margin: 10px;
+  padding: 10px 50px 10px;
+  width: 150px;
+  text-align: left;
+  background: antiquewhite;
+  border-bottom: 4px solid black;
+  border-radius: 6px;
+  color: black;
+  position: absolute;
+  top: 8px;
+  right: 16px;   /*The chronometer is placed at the right top corner as mentioned in the question*/
+  font-size: 18px;
+}
+
+.img {
+    border: 3px solid black;
+}
+
+table {
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+td {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#clock {
+    display: inline;
+}
+
+.dropable {
+    background-color: #GGG;
+    border-color: aqua;
+}
+
+/*Using Css image sprite to cut the images*/
+.piece1 {
+   background-position:left top;
+}
+
+.piece2 {
+   background-position:center top;
+}
+
+.piece3 {
+   background-position:right top;
+}
+
+.piece4 {
+   background-position:left center;
+}
+
+.piece5 {
+   background-position:center center;
+}
+
+.piece6 {
+   background-position:right center;
+}
+
+.piece7 {
+   background-position:left bottom;
+}
+
+.piece8 {
+   background-position:center bottom;
+}
+
+.piece9 {
+   background-position:right bottom;
+}
