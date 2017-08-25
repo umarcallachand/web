@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 
   <title>Pomodoro Clock</title>
 
@@ -17,16 +16,18 @@
 
     <div class="session">
 
+      <p class="text">Session Length</p>
       <button class="session--minus">-</button>
-      <span>25</span>
+      <span class="session-time">25</span>
       <button class="session--add">+</button>
       
     </div>
 
     <div class="break">
     
+      <p class="text">Break Length</p>
       <button class="break--minus">-</button>
-      <span>5</span>
+      <span class="break-time">5</span>
       <button class="break--add">+</button>
     
     </div>
@@ -34,10 +35,19 @@
   
 
     <div class="clock">
-      <div class="progress"></div>
-      <h1>Session</h1>
-      <p class="time-left">25.00</p>
+      
+      <h1 class="period">Session</h1>
+      <p class="time-left">00.00</p>
+      <div class="progress">
+        <div class="bar">
+        </div>
+      </div>
   
+    </div>
+    <div class="buttons">
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+      <button class="reset">Reset</button>
     </div>
 </section>
 
